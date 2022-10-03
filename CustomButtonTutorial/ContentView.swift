@@ -3,14 +3,34 @@
 //  CustomButtonTutorial
 //
 //  Created by Lasse Silkoset on 03/10/2022.
+
+
+/*
+ 5. tre states. inactive, active og loading. (hint: Enum)
+ */
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var buttonState: ButtonState = .inactive
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            
+            Button {
+                buttonState = .active
+            } label: {
+                Text("Make active")
+            }
+
+            
+            LoadingButton(buttonTitle: "Hello World", buttonColor: .blue, buttonState: $buttonState) {
+                print("Dette er i contentView")
+               
+            }
+        }
     }
 }
 

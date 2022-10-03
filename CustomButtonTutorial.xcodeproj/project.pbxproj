@@ -14,6 +14,7 @@
 		C45E784C28EAFFFF00A12F73 /* CustomButtonTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45E784B28EAFFFF00A12F73 /* CustomButtonTutorialTests.swift */; };
 		C45E785628EAFFFF00A12F73 /* CustomButtonTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45E785528EAFFFF00A12F73 /* CustomButtonTutorialUITests.swift */; };
 		C45E785828EAFFFF00A12F73 /* CustomButtonTutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45E785728EAFFFF00A12F73 /* CustomButtonTutorialUITestsLaunchTests.swift */; };
+		C45E786528EB06E400A12F73 /* LoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45E786428EB06E400A12F73 /* LoadingButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C45E785128EAFFFF00A12F73 /* CustomButtonTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomButtonTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45E785528EAFFFF00A12F73 /* CustomButtonTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonTutorialUITests.swift; sourceTree = "<group>"; };
 		C45E785728EAFFFF00A12F73 /* CustomButtonTutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonTutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C45E786428EB06E400A12F73 /* LoadingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				C45E783A28EAFFFD00A12F73 /* CustomButtonTutorialApp.swift */,
 				C45E783C28EAFFFD00A12F73 /* ContentView.swift */,
+				C45E786428EB06E400A12F73 /* LoadingButton.swift */,
 				C45E783E28EAFFFE00A12F73 /* Assets.xcassets */,
 				C45E784028EAFFFE00A12F73 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C45E786528EB06E400A12F73 /* LoadingButton.swift in Sources */,
 				C45E783D28EAFFFD00A12F73 /* ContentView.swift in Sources */,
 				C45E783B28EAFFFD00A12F73 /* CustomButtonTutorialApp.swift in Sources */,
 			);
